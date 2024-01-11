@@ -15,6 +15,6 @@ const PORT = process.env.PORT;
 app.use('/api', router())
 
 
-app.listen(process.env.PORT, () => {
-    console.log(`server runnig on ${process.env.PORT}`)
+app.listen(PORT, () => {
+    console.log(`server runnig on ${PORT}`)
 })
